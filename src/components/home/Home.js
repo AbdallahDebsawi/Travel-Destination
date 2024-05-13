@@ -2,20 +2,15 @@ import HeaderComponet from "../header/Header";
 import FooterComponet from "../footer/Footer";
 import ToursComponet from "../tours/Tours";
 import "../home/Home.css";
-import travelData from '../../data/db.json'
+import travelData from '../../data/db.json';
+import NavBar from "../Navbar/Navbar";
 
 function HomeComponent() {
     return (
         <>
             <HeaderComponet />
             <main>
-                {
-                    travelData.map(tour => {
-                        return (
-                            <ToursComponet image={tour.image} alt={tour.name} title={tour.name} />
-                        )
-                    })
-                }
+                <ToursComponet />
             </main>
 
             <FooterComponet />

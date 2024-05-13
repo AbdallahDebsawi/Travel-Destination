@@ -3,7 +3,7 @@ import facebookIcon from '../../icons/facebook.png';
 import instagramIcon from '../../icons/instagram.png';
 function FooterComponet(props) {
     return (
-        <div class="footer">
+        <div className="footer">
             <footer>
                 <p>&copy; 2024 Debsawi's Website. All rights reserved.</p>
                 <a href="https://www.facebook.com/" target="_blank"><i><img src={facebookIcon}></img>

@@ -1,12 +1,22 @@
 import "../tours/Tours.css";
 
+import TourComponet from "./tour/Tour";
+import travelData from '../../data/db.json'
+
 function ToursComponet(props) {
     return (
-        <div class="tour">
-            <h2>{props.title}</h2>
+        <section className="card-container">
+            {
+                travelData.map(tour => {
+                    return (
+                        <TourComponet key={tour.id} tour={tour}
+                        // id={tour.id} image={tour.image} alt={tour.name} title={tour.name} 
+                        />
+                    )
+                })
+            }
+        </section>
 
-            <img class="tourImage" src={props.image} alt={props.title}></img>
-        </div>
     )
 
 }

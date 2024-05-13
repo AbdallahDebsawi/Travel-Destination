@@ -19,22 +19,3 @@ header i {
 h1 {
     margin: 0;
 }
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-nav ul li:first-child {
-    margin-left: 0;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}

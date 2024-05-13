@@ -1,0 +1,27 @@
+#employeeSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fcfcfc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.employee-card {
+    flex: 1 0;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+
+}
+
+.employee-card img {
+    margin-left: 30%;
+    height: 100px;
+    /* width: 80px; */
+
+}
